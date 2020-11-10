@@ -12,8 +12,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 //Lista de componentes mediante un arreglo para poder trabajarlos.
-    var productos = arrayOf("Opcion 1","Opcion 2","Opcion 3","Opcion 4",
-        "Opcion 5","Opcion 6","Opcion 7","Opcion 8","Opcion 9","Opcion 10","Opcion 11","Opcion 12")
+    var productos = arrayOf("Producto 1","Producto 2","Producto 3","Producto 4",
+        "Producto 5","Producto 6","Producto 7","Producto 8","Producto 9","Producto 10","Producto 11","Producto 12")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
